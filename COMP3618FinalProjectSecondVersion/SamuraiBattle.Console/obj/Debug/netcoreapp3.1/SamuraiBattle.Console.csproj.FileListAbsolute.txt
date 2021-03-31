@@ -1,0 +1,4 @@
+C:\Users\i_lov\Downloads\COMP3618FinalProject-main\COMP3618FinalProject-main\SamuraiBattle.Console\obj\Debug\netcoreapp3.1\SamuraiBattle.Console.csprojAssemblyReference.cache
+C:\Users\i_lov\Downloads\COMP3618FinalProject-main\COMP3618FinalProject-main\SamuraiBattle.Console\obj\Debug\netcoreapp3.1\SamuraiBattle.Console.AssemblyInfoInputs.cache
+C:\Users\i_lov\Downloads\COMP3618FinalProject-main\COMP3618FinalProject-main\SamuraiBattle.Console\obj\Debug\netcoreapp3.1\SamuraiBattle.Console.AssemblyInfo.cs
+C:\Users\i_lov\Downloads\COMP3618FinalProject-main\COMP3618FinalProject-main\SamuraiBattle.Console\obj\Debug\netcoreapp3.1\SamuraiBattle.Console.csproj.CoreCompileInputs.cache

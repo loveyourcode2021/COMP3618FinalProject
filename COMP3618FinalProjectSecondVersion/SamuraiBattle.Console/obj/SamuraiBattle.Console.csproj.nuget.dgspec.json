@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Console\\SamuraiBattle.Console.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\Repository\\Repository.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\Repository\\Repository.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Data\\SamuraiBattle.Data.csproj": {
+                "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Data\\SamuraiBattle.Data.csproj"
+              },
+              "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj": {
+                "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Console\\SamuraiBattle.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Console\\SamuraiBattle.Console.csproj",
+        "projectName": "SamuraiBattle.Console",
+        "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Console\\SamuraiBattle.Console.csproj",
+        "packagesPath": "C:\\Users\\i_lov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\i_lov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\Repository\\Repository.csproj"
+              },
+              "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Data\\SamuraiBattle.Data.csproj": {
+                "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Data\\SamuraiBattle.Data.csproj"
+              },
+              "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj": {
+                "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Data\\SamuraiBattle.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Data\\SamuraiBattle.Data.csproj",
+        "projectName": "SamuraiBattle.Data",
+        "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Data\\SamuraiBattle.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj": {
+                "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj",
+        "projectName": "SamuraiBattle.Domain",
+        "projectPath": "C:\\Users\\i_lov\\Downloads\\COMP3618FinalProject-main\\COMP3618FinalProject-main\\SamuraiBattle.Domain\\SamuraiBattle.Domain.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
