@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiBattleView", "SamuraiBattleView\SamuraiBattleView.csproj", "{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PeiAndAaron", "PeiAndAaron", "{E5870CA1-BC3D-4408-84F2-E4589009FE9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiBattle.Domain", "SamuraiBattle.Domain\SamuraiBattle.Domain.csproj", "{CB5D45B0-A5BE-4173-AE2A-FCFFC0EFD060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiBattle.Data", "SamuraiBattle.Data\SamuraiBattle.Data.csproj", "{7B2541D7-CB74-4B17-A500-C0E5ACB734D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SamuraiBattle_Repos", "SamuraiBattle_Repos", "{C2230C96-B9C2-48B7-80FB-E4F5168505F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{72F0493F-CB6A-404B-89FD-695BDAD2263F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestingForRespos", "TestingForRespos", "{53AC2D16-E9C0-4D50-89E0-7DC56E9E9DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samurai.Console", "Samurai.Console\Samurai.Console.csproj", "{2D869298-9312-4632-A8BE-A3EA5EF5C048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5D45B0-A5BE-4173-AE2A-FCFFC0EFD060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5D45B0-A5BE-4173-AE2A-FCFFC0EFD060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5D45B0-A5BE-4173-AE2A-FCFFC0EFD060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5D45B0-A5BE-4173-AE2A-FCFFC0EFD060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2541D7-CB74-4B17-A500-C0E5ACB734D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2541D7-CB74-4B17-A500-C0E5ACB734D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2541D7-CB74-4B17-A500-C0E5ACB734D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2541D7-CB74-4B17-A500-C0E5ACB734D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F0493F-CB6A-404B-89FD-695BDAD2263F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F0493F-CB6A-404B-89FD-695BDAD2263F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F0493F-CB6A-404B-89FD-695BDAD2263F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F0493F-CB6A-404B-89FD-695BDAD2263F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D869298-9312-4632-A8BE-A3EA5EF5C048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D869298-9312-4632-A8BE-A3EA5EF5C048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D869298-9312-4632-A8BE-A3EA5EF5C048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D869298-9312-4632-A8BE-A3EA5EF5C048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB5D45B0-A5BE-4173-AE2A-FCFFC0EFD060} = {E5870CA1-BC3D-4408-84F2-E4589009FE9E}
+		{7B2541D7-CB74-4B17-A500-C0E5ACB734D0} = {E5870CA1-BC3D-4408-84F2-E4589009FE9E}
+		{C2230C96-B9C2-48B7-80FB-E4F5168505F2} = {E5870CA1-BC3D-4408-84F2-E4589009FE9E}
+		{72F0493F-CB6A-404B-89FD-695BDAD2263F} = {C2230C96-B9C2-48B7-80FB-E4F5168505F2}
+		{2D869298-9312-4632-A8BE-A3EA5EF5C048} = {53AC2D16-E9C0-4D50-89E0-7DC56E9E9DEF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45F3DB0E-43B4-432C-A5FF-A0248F324458}
+	EndGlobalSection
+EndGlobal
