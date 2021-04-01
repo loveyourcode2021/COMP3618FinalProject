@@ -291,9 +291,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\20210331074504_init.cs" />
-    <Compile Include="Migrations\20210331074504_init.designer.cs">
-      <DependentUpon>20210331074504_init.cs</DependentUpon>
+    <Compile Include="Migrations\20210401051441_init.cs" />
+    <Compile Include="Migrations\20210401051441_init.designer.cs">
+      <DependentUpon>20210401051441_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\SamuraiBattleContextModelSnapshot.cs" />
     <Compile Include="SamuraiBattleContext.cs" />
@@ -309,6 +309,7 @@
       <Name>SamuraiBattle.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

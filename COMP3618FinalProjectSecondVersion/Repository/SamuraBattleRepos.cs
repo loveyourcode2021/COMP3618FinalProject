@@ -1,11 +1,14 @@
-﻿using SamuraiBattle.Data;
-using SamuraiBattle.Domain;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+
+using SamuraiBattle.Data;
+using SamuraiBattle.Domain;
 
 namespace Repository
 {
@@ -48,46 +51,59 @@ namespace Repository
                 context.SaveChanges();
             }
         }
-        public void SeedSamuraiBattle(SamuraiBattleContext context)
+        public void SeedSamuraiBattle()
         {
+            var towns = new List<String>();
+            towns.Add("Takoyaki");
+            towns.Add("DonBuri");
+            towns.Add("Sushi Town");
+            towns.Add("Nagasaki");
+            towns.Add("Shijuku");
+
+            var count = towns.Count();
             if (!context.Samurais.Any())
             {
-                var samurai = new List<Samurai>
+                var samurais = new List<Samurai>();
+            
+                for(int i  = 0; i < 10000; i++)
                 {
-                    new Samurai {
+                    var random = new Random();
+                    int pickTown = random.Next(0,5);
+                    var samurai = new Samurai
+                    {
                         Picture = "https://static.wikia.nocookie.net/l5r/images/0/0e/Samurai.jpg",
-                        Name = "ASamurai",
-                        Age = new Random().Next(0, 50),
-                        Town = "Imaicho"
-                    },
-                    new Samurai {
-                        Picture = "https://static.wikia.nocookie.net/l5r/images/0/0e/Samurai.jpg",
-                        Name = "BSamurai",
-                        Age = new Random().Next(0, 50),
-                        Town = "Takium"
-                    }
+                        Name = "Samurai_"+i,
+                        Age = random.Next(0, 50),
+                        Town = towns[pickTown]
+                    };
+                    samurais.Add(samurai);
+                   
+                  
                 };
-                context.AddRange(samurai);
+                context.AddRange(samurais);
                 context.SaveChanges();
             }
 
             if (!context.Battles.Any())
             {
-                var battle = new List<Battle>
-               {
-                   new Battle{
-                       FightDate = new DateTime(),
-                       Name = "Last Samurai1",
-                       Location = "Somewhere in Japan"
-                   },
-                   new Battle{
-                       FightDate = new DateTime(),
-                       Name = "Last Samurai2",
-                       Location = "Somewhere in Japan"
-                   }
-               };
+                var battles = new List<Battle>();
+                for (int i = 0; i < 10000; i++)
+                {
+                    var random = new Random();
+                    int pickTown = random.Next(0,5);
+                    var battle = new Battle
+                    {
+                        FightDate = new DateTime(),
+                        Name = "Round_"+i,
+                        Location = towns[pickTown]
+                    };
+                    battles.Add(battle);
+                }
+                   
+               
+            
 
-                context.AddRange(battle);
+                context.AddRange(battles);
                 context.SaveChanges();
             }
         }

@@ -16,9 +16,9 @@ namespace Samurai.Console
     {
         static void Main(string[] args)
         {
-            var context = new SamuraiBattleContext();
+            
             SamuraBattleRepos er = new SamuraBattleRepos();
-            er.SeedSamuraiBattle(context);
+            er.SeedSamuraiBattle();
         }
     }
 }

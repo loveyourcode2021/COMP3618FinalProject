@@ -8,7 +8,12 @@ namespace SamuraiBattle.Data
     {
         public DbSet<Samurai> Samurais { get; set; }
         public DbSet<Battle> Battles { get; set; }
-
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(
+              "Server = ; Database = SamuraiBattleGroupProject; Trusted_Connection = True; ");
+            optionsBuilder.EnableSensitiveDataLogging();
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
@@ -81,11 +86,6 @@ namespace SamuraiBattle.Data
         /// connects SQL server database provider to find the database 
         /// </summary>
         /// <param name="optionsBuilder"></param>
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(
-              "Server = ; Database = SamuraiBattleGroupProject; Trusted_Connection = True; ");
-            optionsBuilder.EnableSensitiveDataLogging();
-        }
+      
     }
 }
